@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	background-image: url(HY_FLE.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+#main{
+	border: 2px solid white;
+	padding-bottom: 1.9em;
+}
+header{
+	background-color:#6495ED/* #1E82FF*/;
+	color: white;
+	margin : 0px;
+	text-align: center;
+	font-size: 15pt;
+	height: 30px;
+}
+header>a,header>a:link,header>a:visited{
+   text-decoration: none;
+   color: white;
+}
+
+nav{
+	border: 2px solid none;
+	background-color: #6495ED;
+	border-radius: 15px;
+	width: 430px;
+	margin: auto;
+	margin-top: 17%;
+	/*margin-top: -82px;*/
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+form{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 172px;
+	padding-left: 28px;
+}
+
+
+#sell{
+	clear: left;
+
+}
+
+button{
+	background-color: #0AC9FF;
+	width: 172px;
+	font-size: 30pt;
+	color: white;
+}
+
+nav a{
+	margin: 0px;
+}
+footer{
+	background-color: #6495ED/*#1E82FF;*/;
+	color: white;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	font-size: 13pt;
+}
+
+footer span{
+	color: yellow;
+}
+
+#menu{
+   float: right;
+   margin: 0px;
+   margin-top: -30px;
+   padding: 0px;
+   height: 30px;
+   width: 100px;
+}
+#menu ul{
+   margin:0px;
+   padding: 0px;
+   list-style-type: none;
+}
+#menu ul li{
+   background-color: #1E90FF/*#0064FF*/;
+   line-height: 30px;
+   vertical-align: middle;
+   text-align: center;
+   color: white;
+}
+#submenu{
+   height: 0px;
+   overflow: hidden;
+   transition: height .2s;
+}
+#submenu li{
+   border-top: solid 1px black;
+}
+#menu>ul>li:hover #submenu{
+   height: 63px;
+}
+#submenu a{
+   text-decoration: none;
+   color: white;
+}

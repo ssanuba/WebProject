@@ -1,0 +1,140 @@
+header{
+	background-color:#6495ED/* #1E82FF*/;
+	color: white;
+	margin : 0px;
+	text-align: center;
+	font-size: 15pt;
+	height: 30px;
+}
+header>a,header>a:link,header>a:visited{
+   text-decoration: none;
+   color: white;
+}
+body{
+	margin: 0px;
+	background-image: url(HY_FLE.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	background-attachment: fixed;
+	background-position: bottom;
+	text-align:center;
+}
+section {
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	border-radius: 22px;
+	width: 500px;
+	height: 90%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	overflow-y: scroll;
+	top: 50%;
+	border: 5px solid black;
+}
+::-webkit-scrollbar { 
+   display: none; 
+}  
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	margin: 15px;
+}
+
+h2 {
+	font-size: 70px;
+}
+
+.login {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+	margin-bottom: 15px;
+	transition: width 0.5s ease-out;
+
+}
+
+.password {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	margin-bottom: 15px;
+	transition: width 0.5s ease-out;
+
+}
+
+.student_id {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	transition: width 0.5s ease-out;
+
+}
+
+.email{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100px;
+	margin-bottom: 10px;
+	transition: width 0.5s ease-out;
+
+}
+
+.email_confirm{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 50px;
+	margin-bottom: 10px;
+	transition: width 0.5s ease-out;
+
+}
+
+
+select{
+	 width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #006fff;
+    border: 1px solid #006fff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+
+
+
+}
+
+
+form>p {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.button {
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	width: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+
+}
+
+footer{
+	background-color: #6495ED/*#1E82FF;*/;
+	color: white;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	font-size: 13pt;
+}
+
+footer span{
+	color: yellow;
+}

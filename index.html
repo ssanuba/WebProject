@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>http://www.blueb.co.kr</title>
+      <link rel="stylesheet" type="text/css" href="index.css" />
+      <link rel="stylesheet" type="text/css" href="backgroundTransition.css" />
+  </head>
+  <body>
+
+      <div class="backgroundTransition">
+          <div class="content">
+              <div id="division">
+              <h1>HY-Fleamarket!</h1>
+         
+              <p>HY-FleaMarket is a project created and maintained by Team Hanzo for Hanyang University student.</p>
+              </div>
+
+              <div id="login">
+              <a href="login.html"><button>로그인</button></a>
+              <a href="register.php"><button>회원가입</button></a>
+              </div>
+
+          </div>
+      </div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="backgroundTransition.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+	  $('.backgroundTransition').backgroundTransition({
+		  backgrounds:[
+        { src: 'https://i.imgur.com/oqu2F8Q.jpg' },
+        { src: 'https://i.imgur.com/i0JW0pS.jpg' },
+        { src: 'https://i.imgur.com/uKGzg3s.jpg' },
+        { src: 'https://i.imgur.com/tGwn5YM.jpg' },
+        { src: 'https://i.imgur.com/SO6rvYm.jpg' },
+        { src: 'https://i.imgur.com/CpTeVH1.jpg' },
+        { src: 'https://i.imgur.com/MwZWO9n.jpg' },
+        { src: 'https://i.imgur.com/fqH8DYj.jpg' }
+		  ],
+		  transitionDelay: 3,
+		  animationSpeed: 800
+	  });
+  });
+
+
+</script>
+
+
+</body>
+</html>
